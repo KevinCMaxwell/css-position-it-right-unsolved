@@ -1,38 +1,91 @@
 .robot-container {
+display: flex;
+flex-direction: column;
+gap: 600px;
 }
 
 .robot-face-shape {
+    .square {
+        width: 400px;
+        height: 550px;
+        border: 3px;
+        background-color: lightslategray;
+}
 }
 
 .robot-eye-left {
+    .circle {
+        width: 20px;
+        height: 20px;
+        border: 3px;
+        background-color: yellow;
+}
 }
 
 .robot-eye-right {
+    .circle {
+        width: 20px;
+        height: 20px;
+        border: 3px;
+        background-color: yellow;
+}
 }
 
 .robot-ear-left {
+    .oval {
+        width: ;
+        height: ;
+        border: 3px;
+    }
 }
 
 .robot-ear-right {
+    .oval {
+        width: ;
+        height: ;
+        border: 3px;
 }
 
 .robot-nose {
+    .rectangle {
+        width: 6px;
+        height: 40px;
+        border: 3px;
+}
 }
 
 .robot-teeth {
+    .rectangle {
+        width: ;
+        height: ;
+        border: ;
+    }
 }
 
 .robot-tooth {
+    .square {
+        width: ;
+        height: ;
+        border: 1px;
+    }
 }
 
 .robot-hair-style {
+.triangle {
+    width: ;
+    height: ;
+    border: 3px;
+}
 }
 
 .robot-hair-one {
+    border: 3px;
 }
 
 .robot-hair-two {
+    border: 3px;
 }
 
 .robot-hair-three {
+    border: 3px;    
 }
