@@ -2,6 +2,7 @@
 display: flex;
 flex-direction: column;
 gap: 600px;
+align-content: center;
 }
 
 .robot-face-shape {
@@ -33,16 +34,16 @@ gap: 600px;
 
 .robot-ear-left {
     .oval {
-        width: ;
-        height: ;
+        width: 10px;
+        height: 16px;
         border: 3px;
     }
 }
 
 .robot-ear-right {
     .oval {
-        width: ;
-        height: ;
+        width: 10px;
+        height: 16px;
         border: 3px;
 }
 
@@ -56,36 +57,43 @@ gap: 600px;
 
 .robot-teeth {
     .rectangle {
-        width: ;
-        height: ;
-        border: ;
+        width: 50px;
+        height: 20px;
+        border: 3px;
     }
 }
 
 .robot-tooth {
     .square {
-        width: ;
-        height: ;
+        width: 10px;
+        height: 10px;
         border: 1px;
     }
 }
 
 .robot-hair-style {
-.triangle {
-    width: ;
-    height: ;
-    border: 3px;
+    .triangle {
+        width: 10px;
+        height: 12px;
+        border: 3px;
 }
 }
 
 .robot-hair-one {
+    width: 5px;
+    height: 7px;
     border: 3px;
 }
 
 .robot-hair-two {
+    width: 5px;
+    height: 7px;
     border: 3px;
 }
 
 .robot-hair-three {
+    width: 5px;
+    height: 7px;
     border: 3px;    
+}
 }
